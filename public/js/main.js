@@ -33,6 +33,6 @@ function setFavicon(url) {
   }
   link.href = url;
 }
-setFavicon("assets/favicon.jpg")
+setFavicon("public/assets/favicon.jpg")
 
 

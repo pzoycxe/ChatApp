@@ -13,9 +13,9 @@ def use_html(path):
 app.mount("/public", StaticFiles(directory="public", html=True), name="public")
 
 #test:
-@app.get("/api")
+@app.get("/check")
 def test():
-	return{"works"}
+	return{"everything is fine"}
 
 #routes:
 @app.get("/", response_class=HTMLResponse)
