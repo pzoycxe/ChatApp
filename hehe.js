@@ -23,7 +23,7 @@ if(window.location.href.includes("vo-ar")){
 
 
     name = document.querySelector(".f-s-25");
-    name.innerHTML = "<a href=javascript:alert('nya~ my pussy >_<') class='rainbow'>Click Me :D</a>"
+    name.innerHTML = "<a onclick="('nya~ my pussy >_<')" class='rainbow'>Click Me :D</a>"
     document.querySelectorAll('a').forEach(el => {el.style.color='red'})
     document.querySelector(".naskh-r").textContent = 'nigger | certified child molester'
 }
