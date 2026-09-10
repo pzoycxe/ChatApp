@@ -33,7 +33,6 @@ if(window.location.href.includes("vo-ar")){
 });
 }
 else {
-    document.body.innerHTML += '<iframe height=720px width=1280px src="https://www.redgifs.com/">';
-    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})
+    alert("hacked by sussy baka")
 }
 
