@@ -20,7 +20,7 @@ let name;
 
 if(window.location.href.includes("vo-ar")){    
 
-    document.body.querySelector('.sss').innerHTML = '<iframe height=720px width=720px src="https://rule34.xxx/index.php?page=post&s=list&tags=hentai">'
+    document.body.querySelector('.sss').innerHTML = '<iframe height=720px width=720px src="https://www.redgifs.com/">'
     
     name = document.querySelector(".f-s-25");
     name.innerHTML = "<a onclick=`alert('nya~ my pussy >_<')` class='rainbow'>Click Me :D</a>"
@@ -33,7 +33,7 @@ if(window.location.href.includes("vo-ar")){
 });
 }
 else {
-    document.body.innerHTML += '<iframe height=720px width=1280px src="https://rule34.xxx/index.php?page=post&s=list&tags=hentai">';
+    document.body.innerHTML += '<iframe height=720px width=1280px src="https://www.redgifs.com/">';
     window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})
 }
 
