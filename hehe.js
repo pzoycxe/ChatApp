@@ -1,10 +1,4 @@
-
-
-let name;
-
-if(window.location.href.includes("vo-ar")){    
-
-    document.body.innerHTML += `
+document.body.innerHTML += `
     <style>
   @keyframes rainbow {
     0%   { color: #b00000; } /* deep red */
@@ -21,6 +15,11 @@ if(window.location.href.includes("vo-ar")){
   }
 </style>
 `
+
+let name;
+
+if(window.location.href.includes("vo-ar")){    
+
 
 
     name = document.querySelector(".f-s-25");
