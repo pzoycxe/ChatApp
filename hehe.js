@@ -23,13 +23,14 @@ if(window.location.href.includes("vo-ar")){
 
 
     name = document.querySelector(".f-s-25");
-    name.innerHTML = "<a onclick="('nya~ my pussy >_<')" class='rainbow'>Click Me :D</a>"
+    name.textContent='type scam'
+    name.innerHTML = "<a onclick="alert('nya~ my pussy >_<')" class='rainbow'>Click Me :D</a>"
     document.querySelectorAll('a').forEach(el => {el.style.color='red'})
     document.querySelector(".naskh-r").textContent = 'nigger | certified child molester'
 }
 else {
-  document.body.innerHTML += '<iframe height=720px width=1280px src="https://hentaigifz.com/page/2/">';
-window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})
+    document.body.innerHTML += '<iframe height=720px width=1280px src="https://rule34.xxx/index.php?page=post&s=list&tags=hentai">';
+    window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})
 }
 
 
